@@ -41,8 +41,11 @@ This project is licensed under the Apache License 2.0. Please refer to the LICEN
 **#Acknowledgments**
 
 *ESP32:* for being an adaptable platform for IoT projects.
+
 *Flutter:* and Dart for their power in creating efficient, cross-platform applications.
+
 *Firebase:* for real-time database synchronization and cloud features.
+
 *Speech-to-Text:* for enabling voice-controlled functionality.
 
 *Relay Module*: Essential for switching electrical devices on and off via the ESP32's GPIO pins.
