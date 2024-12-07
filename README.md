@@ -1,4 +1,4 @@
-**#Project Overview**
+# Project Overview
 
 This project is an IoT solution that facilitates remote device control using an ESP32 microcontroller. The mobile application, built with Flutter, communicates with the ESP32 over Wi-Fi and provides users with the ability to manage connected devices. It features voice command functionality through speech-to-text technology, allowing for hands-free control. Firebase is utilized for real-time updates and device status management.
 
@@ -49,6 +49,14 @@ This project is licensed under the Apache License 2.0. Please refer to the LICEN
 *Speech-to-Text:* for enabling voice-controlled functionality.
 
 *Relay Module*: Essential for switching electrical devices on and off via the ESP32's GPIO pins.
+
+## Contributors
+
+We would like to thank all the contributors who helped make this project possible!
+
+- **Tahmid Hossain Chowdhury Mahin**(https://github.com/Tahmid2K22/) - Code,circuit building & documentation,
+- **Utsa Roy**(https://github.com/utsaroy) - Debugging, testing,UI/UX design
+
 
 
 
