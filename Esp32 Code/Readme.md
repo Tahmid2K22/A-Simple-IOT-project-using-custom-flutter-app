@@ -1,3 +1,4 @@
 ## Requirement
 
-FireEsp and ArduinoJson library should be imstalled before compiling the code.These library can be found in Arduino IDE library.
+Before compiling the code, ensure that the FireEsp and ArduinoJson libraries are installed. These libraries are available in the Arduino IDE library manager.
+
