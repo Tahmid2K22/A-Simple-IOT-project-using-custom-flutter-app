@@ -1,10 +1,12 @@
+//Author:Tahmid Hossain Chowdhury Mahin 
+
 #include<WiFi.h>
 #include <FireEsp.h>
 #include <ArduinoJson.h>
 
 const int light=15;
-const char* ssid = "ESP";
-const char* password = "10101010#2G";
+const char* ssid = "";
+const char* password = "";
 #define FIREBASE_API ""
 #define FIREBASE_Domain ""
 #define DATABASE_URL ""
