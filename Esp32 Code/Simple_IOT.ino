@@ -5,9 +5,9 @@
 const int light=15;
 const char* ssid = "ESP";
 const char* password = "10101010#2G";
-#define FIREBASE_API "AIzaSyDTU11TOZgJxpsVIYysVm3SlcuAGzpFm-4"
-#define FIREBASE_Domain "simple-iot-project-4cb60.firebaseapp.com"
-#define DATABASE_URL "https://simple-iot-project-4cb60-default-rtdb.firebaseio.com/"
+#define FIREBASE_API ""
+#define FIREBASE_Domain ""
+#define DATABASE_URL ""
 FbServer server(FIREBASE_API,FIREBASE_Domain , DATABASE_URL);
 FbAuthentication auth(server);
 FbDatabase database(server);
