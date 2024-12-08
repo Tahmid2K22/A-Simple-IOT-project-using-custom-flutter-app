@@ -5,8 +5,8 @@
 #include <ArduinoJson.h>
 
 const int light=15;
-const char* ssid = "";
-const char* password = "";
+const char* ssid = ""; //Wifi ssid
+const char* password = "";// wifi password
 #define FIREBASE_API ""
 #define FIREBASE_Domain ""
 #define DATABASE_URL ""
@@ -39,21 +39,15 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  //Serial.println("hello");
   lightinfo_string = database.get("/light", auth.getIdToken());
   deserializeJson(lightinfo, lightinfo_string);
   
   int light_state = lightinfo["state"];
- // Serial.println(light_state);
   if(light_state!=prev_Light_state){
     if(light_state) lightON();
     else lightOFF();
   }
-  //delay(500);
   prev_Light_state=light_state;
-
-  
-
 }
 
 void ConnectToWifi(){
